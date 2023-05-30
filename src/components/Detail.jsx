@@ -27,6 +27,7 @@ export default function Detail() {
 
       <p> {detalle.status}</p>
       <p> {detalle.species}</p>
+      <p> {detalle.gender}</p>
       <Tarjeta key={detalle.id} personaje={detalle} />
     </div>
   );
